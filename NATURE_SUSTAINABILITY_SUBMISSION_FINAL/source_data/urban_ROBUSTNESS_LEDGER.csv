@@ -1,0 +1,17 @@
+analysis_id,N,countries,outcome,legacy,hazard,model,interaction_est,ci_low,ci_high,p_value,direction,prespecified,notes
+PRIMARY,4598,143.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+countryFE(FWL),-0.0082752345313635,-0.0185657516958725,-0.0035918575546412,0.0,-1.0,yes,reference (999-boot reported in primary_effects.csv)
+frac_logit_scaled,4598,143.0,y_fl,_zl,_zh,OLS+countryFE(FWL),-0.0071996877256177,-0.0150364791965616,-0.0032475807603438,0.0,-1.0,yes,"outcome min-max scaled (0,1)"
+alt_delta_expo_share,4598,143.0,delta_expo_share,_zl,_zh,OLS+countryFE(FWL),0.3392729094960162,0.146755459483378,0.6118738091803416,0.0,1.0,yes,
+alt_delta_expo_pop,4598,143.0,delta_expo_pop_share,_zl,_zh,OLS+countryFE(FWL),0.1490961187299055,-0.0370042184933649,0.3979347409050369,0.12,1.0,yes,
+alt_capital_per_res,4598,143.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+countryFE(FWL),-0.0042889557041987,-0.0137600887888648,0.0043464257114335,0.29,-1.0,yes,
+alt_capital_per_bus,4598,143.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+countryFE(FWL),-0.0040597899145221,-0.0139741880009235,0.000875376319953,0.16,-1.0,yes,
+alt_capital_bus,4598,143.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+countryFE(FWL),-0.0094566341799897,-0.0155163789690065,-0.0045013841161251,0.0,-1.0,yes,
+alt_inference_country_cluster_note,4598,143.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+countryFE(FWL),-0.0082752345313635,-0.017006456541427,-0.002807303812834,0.0,-1.0,yes,block bootstrap; country-cluster variant reported in notes (rejects null at alpha .05 same as primary)
+alt_region_FE,4598,143.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+regionFE,-0.0130848888111041,,,,-1.0,yes,WIG-region FE replaces country FE; no bootstrap
+gdp2000_adj,4598,143.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+countryFE(FWL),-0.008017407517119,-0.0149350906938647,-0.0032841636572972,0.0,-1.0,yes,
+emerged_excl,4598,143.0,net_hazard_avoidance_reallocation,ln_buv_2000,flood_share_2000,,,,,,,yes,INFEASIBLE: locked sample contains only existing_2000 UCs; no emerged UCs present
+uc_cover_proxy,4598,143.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+countryFE(FWL),-0.0083153134250535,-0.0152485604752245,-0.0036781899949927,0.0,-1.0,yes,
+RP100_hazard,4598,143.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+countryFE(FWL),0.0059673905210375,-0.0099500240361358,0.0139348093444221,0.66,1.0,yes,100-yr RP hazard share replaces RP10
+elig_2.0pct,3939,132.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+countryFE(FWL),-0.0074515248048029,-0.0154994071446372,-0.001487508333526,0.01,-1.0,yes,eligibility flood_share>=2.0%
+elig_5.0pct,2983,120.0,net_hazard_avoidance_reallocation,_zl,_zh,OLS+countryFE(FWL),-0.0042557820518707,-0.014928791794262,0.0033820462085366,0.37,-1.0,yes,eligibility flood_share>=5.0%
+SLR_subsample,542,,net_hazard_avoidance_reallocation,z_legacy,z_flood,OLS+countryFE(FWL),0.0029,,,,1.0,yes,"locked SLR-measured subsample (NS_ESB_SLR_2025 non-null); sign reverses, small N"

@@ -1,0 +1,17 @@
+version: SETTLEMENT_TRANSITION_PRIMARY_LOCK_V4
+frozen_utc: 2026-10-04
+supersedes: TRANSITION_PRIMARY_ANALYSIS_LOCK_V3 (V1-V3 preserved, not overwritten)
+primary_outcome: first observed FEMA-supported transformational-departure programme entry (programme fiscal year; NOT household relocation date); event_process = Option A first event; risk from first eligible year until first positive departure programme-year inclusive; never-transition counties at risk through 2020
+risk_set: analysis/PRIMARY_TRANSITION_RISKSET_V4.csv (sha256 sidecar); 51,686 cells / 3,062 counties / 1,021 events
+primary_demand: demand_decl_flood_lag3 (3-year strictly lagged unique county x disasterNumber flood major-declaration burden; deterministic)
+primary_legacy: legacy2000_c = z(-median_year_built_2000), Census 2000 SF3 H035 baseline housing-stock legacy duration
+primary_capacity: cum_departure_oblig_lag = strictly-lagged cumulative obligations on departure-type projects only (200.x acquisition excl. vacant land; 201.x relocation; per 01_CAPACITY_ACTION_TYPE_AUDIT.csv) = prior FEMA transformational-departure programme experience
+secondary_capacity: cum_property_mitigation_lag (broader property-mitigation experience incl. Mitigation Reconstruction; robustness only)
+covariates: log housing units; Mundlak county means of demand and capacity
+model_primary: discrete-time cloglog first-event hazard; year baseline hazard + state FE; coefficients demand, capacity, legacy, demand x legacy (H1), demand x capacity (H2)
+inference: county-cluster robust SE; alpha 0.05 two-sided; simulation null calibration reported in 03_INFORMATION_RECHECK.md
+secondary_intensive: PPML county FE + year FE + offset(log HU) on departure_props (LOCK_V2 spec; county CRV1; NOT transition probability)
+numerator_sensitivities: A = SUM numberOfProperties (primary); B = row count; C = project-deduplicated (frozen)
+external_validation: PDD planned-relocation coding opened only after US primary result frozen; not used to rescue nulls
+claim_ceiling: US county-level initiation of FEMA-supported flood-risk transformational-departure programmes
+prohibitions: no outcome-value filtering; no outcome-based variable selection; single real opening only; prior locks unmodified

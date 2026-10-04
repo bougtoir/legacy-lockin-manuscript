@@ -1,0 +1,11 @@
+control,estimate,N,notes
+low_hazard_matched_control,0.0008378711921787358,2363,flood_share<1% matched controls; near-zero hazard variance limits identification
+future_exposure_placebo,-0.008067142387520465,4598,2020 flood share as predictor: -0.0081 similar magnitude -> PARTIAL FAIL (baseline hazard persists into 2020; timing placebo is weak because exposure field is static)
+spatially_shifted_hazard,"mean +0.0033 (50 perms), range [-0.0045,+0.0103]",4598,observed -0.0083 below placebo range -> PASS
+wrong_window_1990_2000,,0,INFEASIBLE: no extracted pre-2000 reallocation measure (1975-2000 BU components not in locked sample)
+eligibility_thresholds,,0,covered in ROBUSTNESS_LEDGER elig_2.0pct/-0.0075; elig_5.0pct/-0.0043
+leave_one_country_out_range,-0.0109..-0.0074,143,primary b3=-0.0083
+leave_one_region_out_range,-0.0142..-0.0063,5,"regions=Upper Middle,High income,Lower Middle,Low income,nan"
+top10_BUV_excl,-0.010352656843263702,4588,
+port25_excl,-0.011764178361193556,4159,
+capital_excl,-0.0081,4518,"capitals (GC_UCM_CAP=1, N=80) excluded; stable"

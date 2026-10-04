@@ -1,0 +1,33 @@
+study_name: "Flood-Exposed Urban Settlement Rigidity"
+study_version: "FLOOD-FINAL-LOCK-V3"
+supersedes: "COASTAL-FINAL-LOCK-V2 (scope relabel only; data unchanged)"
+primary_design_type: "OPTION A — baseline-exposure response design"
+primary_claim: "Pre-existing built capital may condition subsequent urban spatial reconfiguration across baseline flood-exposure gradients."
+claim_language_note: "No coastal/sea-level/worsening-hazard wording in primary claim; hazard is riverine flood (GloFAS-derived modelled inundation), verified in 01_FLOOD_HAZARD_DEFINITION.md"
+unit: "GHS-UCDB R2024A Urban Centre (ID_UC_G0), fixed 2025 union footprint"
+sample: "N=4598 UCs, 143 countries, 175 blocks; eligibility flood_share_2000>=1.0%, pop_2000>0, ln_BUV_2000 defined, net BUS expansion>0"
+baseline_epoch: 2000
+followup_epoch: 2020
+legacy_exposure: "ln(GH_BUV_TOT_2000); ln(GH_POP_TOT_2000) separate covariate; robustness: BUV/POP, BUV/BUS, BUS"
+flood_exposure: "flood_share_2000 = EX_010_SHB_2000 (% baseline built-up inside 10-year-return-period modelled flood-inundation zone; Baugh et al. 2024, CEMS-GLOFAS — riverine/fluvial flood, static hazard field, predetermined level)"
+outcome: "net_hazard_avoidance_reallocation (net index, NOT a share); secondary: delta_expo_share, delta_expo_pop_share"
+model: "OLS + country FE: outcome ~ z(ln_BUV_2000)*z(flood_share_2000) + ln_pop + elevation + ln1p(dist_port) + ln1p(uc_within50km)"
+covariates: "ln_pop_2000, GE_ELV_AVG_2025, ln1p(dist_port_km), ln1p(uc_within50km); country FE (GC_CNT_GAD_2025)"
+primary_inference: "geographic block bootstrap, 1000km Mollweide grid, 175 blocks, B=999, percentile CI, seed 20261003, two-sided alpha 0.05; type-I 0.047-0.087 (mildly liberal, disclosed)"
+coastal_secondary_subgroup: "dist_coast_km <= 10 (N=782, 92 countries)"
+coastal_sensitivities: [25, 50]
+inland_secondary_subgroup: "dist_coast_km > 50 (N=3181, 115 countries)"
+flood_type_note: "source does not support riverine/coastal split; use coastal-PROXIMITY subgroups, not coastal-flood subgroups"
+low_hazard_falsification: "flood_share_2000<1% UCs matched within country on ln_BUV, ln_POP, elevation (N=2363 matched controls; no outcome used for matching)"
+negative_controls: [low_hazard_matched_control, future_exposure_predicts_prior_change, spatially_shifted_hazard_nbmean, wrong_window_1990_2000, eligibility_thresholds_0.5_2_5, LOCO, LORO, megacity_exclusion_top10BUV, port_city_exclusion_lt25km, capital_city_exclusion]
+robustness: [fractional_logit, delta_expo_share, delta_expo_pop_share, eligibility_thresholds, BUV_per_res, BUV_per_BUS, BUS_2000, GDP2000, Conley300km, country_cluster, region_FE, emerged_UC_exclusion, uc_cover_proxy, SLR_subsample, coastal_subgroups]
+nonlinear_secondary_test: "hazard tercile x legacy piecewise (prespecified quantile bins)"
+functional_outcome_status: "SECONDARY — pop/built-volume retention"
+claim_scope: "associative baseline flood-exposure-gradient response only"
+n_sample: 4598
+n_countries: 143
+n_blocks: 175
+seed: 20261003
+bootstrap_repetitions: 999
+alpha: 0.05
+sample_sha256: "15233d49b21b8a80a1196a16525ae9fbb6621c68be36b8d7abec7208c902a9f7"

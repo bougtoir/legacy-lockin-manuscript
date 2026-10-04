@@ -1,0 +1,44 @@
+n,citation,real,verified_via,used_for,risk
+1,"Unruh GC, Understanding carbon lock-in, Energy Policy 28:817-830 (2000)",yes,canonical knowledge; widely cited landmark paper,lock-in definition,low
+2,"Seto KC et al., Carbon lock-in types causes and policy implications, Annu Rev Environ Resour 41:425-452 (2016)",yes,canonical; verified in prior session searches,lock-in taxonomy,low
+3,"David PA, Clio and the economics of QWERTY, AER 75:332-337 (1985)",yes,canonical,path dependence,low
+4,"Arthur WB, Competing technologies increasing returns and lock-in, Econ J 99:116-131 (1989)",yes,canonical,increasing returns,low
+5,"North DC, Institutions Institutional Change and Economic Performance (CUP 1990)",yes,canonical,institutional legacy,low
+6,"Page SE, Path dependence, Q J Polit Sci 1:87-115 (2006)",yes,canonical,path dependence vs persistence,low
+7,"Geels FW, Technological transitions as evolutionary reconfiguration, Res Policy 31:1257-1274 (2002)",yes,canonical,MLP transitions,low
+8,"Markard J et al., Sustainability transitions emerging field, Res Policy 41:955-967 (2012)",yes,canonical,field anchor,low
+9,"Kohler J et al., Agenda for sustainability transitions research, Environ Innov Soc Transit 31:1-32 (2019)",yes,canonical,transitions agenda,low
+10,"Barnett J & O'Neill S, Maladaptation, Glob Environ Change 20:211-213 (2010)",yes,canonical,maladaptation,low
+11,"Magnan AK et al., Addressing the risk of maladaptation, WIREs Clim Change 7:646-665 (2016)",yes,canonical,maladaptation,low
+12,"Juhola S et al., Redefining maladaptation, Environ Sci Policy 55:135-140 (2016)",yes,canonical,maladaptation definition,low
+13,"Eriksen S et al., Adaptation interventions and vulnerability, World Dev 141:105383 (2021)",yes,canonical,adaptation outcomes,low
+14,"Dow K et al., Limits to adaptation, Nat Clim Change 3:305-307 (2013)",yes,canonical,limits terminology,low
+15,"Schipper ELF, Maladaptation, One Earth 3:409-414 (2020)",yes,canonical,maladaptation,low
+16,"Moser SC & Ekstrom JA, Framework to diagnose barriers, PNAS 107:22026-22031 (2010)",yes,canonical,barrier diagnosis,low
+17,"Biesbroek GR et al., Nature of barriers to climate adaptation, Reg Environ Change 13:1119-1129 (2013)",yes,canonical,barriers vs limits,low
+18,"Kates RW et al., Transformational adaptation, PNAS 109:7156-7161 (2012)",yes,canonical,transformational adaptation,low
+19,"Fedele G et al., Transformative adaptation, Environ Sci Policy 101:116-125 (2019)",yes,canonical,transformative adaptation,low
+20,"Gajjar SP et al., Development pathways constrain adaptation futures, Clim Dev 11:223-237 (2019)",yes,canonical,development pathways,low
+21,"Adger WN et al., Adaptation in developing world, Prog Dev Stud 3:179-195 (2003)",yes,canonical,adaptive capacity,low
+22,"Mendelsohn R et al., Impact of global warming on agriculture, AER 84:753-771 (1994)",yes,canonical,Ricardian ag,low
+23,"Deschenes O & Greenstone M, Economic impacts of climate change, AER 97:354-385 (2007)",yes,canonical,ag identification,low
+24,"Hornbeck R, Enduring impact of the American Dust Bowl, AER 102:1477-1507 (2012)",yes,canonical,persistence,low
+25,"Hornbeck R & Keniston D, Creative destruction Boston Fire, AER 107:1365-1398 (2017)",yes,canonical,urban rebuilding,low
+26,"Vigdor J, Economic aftermath of Hurricane Katrina, J Econ Perspect 22:135-154 (2008)",yes,canonical,post-disaster,low
+27,"Hino M Field CB & Mach KJ, Managed retreat, Nat Clim Change 7:364-370 (2017)",yes,canonical; verified earlier,managed retreat,low
+28,"Boustan LP et al., Moving to higher ground, AER 102:238-242 (2012)",yes,canonical,disaster migration,low
+29,"Marino E, Adaptation privilege and voluntary buyouts, Glob Environ Change 49:10-13 (2018)",yes,canonical,buyout equity,low
+30,"Franco A et al., Publication bias in social sciences, Science 345:1502-1505 (2014)",yes,canonical,publication bias,low
+31,"Fanelli D, Pressures to publish increase bias, PLoS ONE 5:e10271 (2010)",yes,canonical,bias,low
+32,"Schlenker W & Roberts MJ, Nonlinear temperature effects US yields, PNAS 106:15594-15598 (2009)",yes,canonical,ag climate,low
+33,"Lobell DB et al., Climate trends and global crop production, Science 333:616-620 (2011)",yes,canonical,ag climate,low
+34,"Burke M & Emerick K, Adaptation to climate change US agriculture, Am Econ J Policy 8:106-140 (2016)",yes,canonical,ag adaptation null,low
+35,"Costinot A Donaldson D & Smith C, Evolving comparative advantage, J Polit Econ 124:205-248 (2016)",yes,canonical,crop switching,low
+36,"Rising J & Devineni N, Crop switching reduces losses, Nat Commun 11:4991 (2020)",yes,canonical,crop switching,low
+37,"Melchiorri M et al., Unveiling 25 years of planetary urbanization, Remote Sens 10:768 (2018)",yes,canonical,GHSL,low
+38,"Florczyk AJ et al., GHSL Data Package 2019 (EU Publ Office 2019)",yes,canonical,UCDB,low
+39,"Siders AR, Social justice implications of US buyouts, Clim Change 152:239-257 (2019)",yes,canonical,buyouts,low
+40,"Mach KJ et al., Managed retreat through voluntary buyouts, Sci Adv 5:eaax8995 (2019)",yes,canonical,buyouts,low
+41,"Davis DR & Weinstein DE, Bones bombs and break points, AER 92:1269-1289 (2002)",yes,canonical,persistence,low
+42,"Miguel E & Roland G, Long-run impact of bombing Vietnam, J Dev Econ 96:1-15 (2011)",yes,canonical,persistence,low
+43,"Caldecott B et al., Stranded assets in agriculture, Oxford Smith School report (2013)",yes,known Smith School report,stranded assets,moderate (grey lit; title/year confirmed)

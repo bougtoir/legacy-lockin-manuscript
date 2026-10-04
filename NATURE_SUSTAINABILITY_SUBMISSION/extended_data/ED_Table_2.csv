@@ -1,0 +1,4 @@
+analysis,model,estimate,95% CI,p,status
+"lag-1 demand, extensive margin (H1)",cloglog first-entry,-0.380,"[-0.678, -0.082]",0.012,secondary
+"lag-1 demand, intensive margin (H1)",PPML county+year FE,-0.548,"[-0.910, -0.187]",0.003,secondary
+"lag-1 demand, intensive margin (H2)",PPML county+year FE,-0.223,"[-0.448, +0.002]",0.052,secondary

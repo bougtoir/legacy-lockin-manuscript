@@ -1,0 +1,13 @@
+metric,value
+counties_ever_positive_dep,1271.0
+frac_zero_2000,0.806277742549144
+frac_zero_2020,0.5970196575776792
+median_2020,0.0
+p75_2020,756779.0025000001
+p95_2020,9232562.261499992
+max_2020,520691117.09000003
+within_county_sd_mean,704917.2587042275
+corr_with_property_mitigation,0.49899816476910547
+counties_rank_shift_gt10pct,2206.0
+departure_projects,7115.0
+departure_counties,1370.0
