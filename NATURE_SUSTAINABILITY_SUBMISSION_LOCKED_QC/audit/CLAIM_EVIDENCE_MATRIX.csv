@@ -1,0 +1,11 @@
+claim,level,evidence,status
+"National crop specialization did not condition crop-mix transformation under mismatch (beta3 NULL)","PRIMARY DIRECT","nat.beta3=+0.0046 [-0.131,+0.143], p=0.851, N=147","SUPPORTED (null)"
+"Subnational irrigation dependence did not condition transformation (beta3 NULL)","PRIMARY DIRECT","subnat.beta3=-0.0377 [-0.2513,+0.0773], p=0.384, N=340, 8 robustness variants + falsification suite","SUPPORTED (null)"
+"Urban built volume interacted with flood exposure, small & context-dependent","PRIMARY DIRECT","urban.beta3=-0.0083 [-0.0166,-0.0033], p=0.002; inland-concentrated; RP100 sign reversal; SLR subset (N=542) fails","SUPPORTED AS WEAK/CONTEXT-DEPENDENT ONLY"
+"Transition H1: older housing stock attenuates first FEMA departure-programme entry","PRIMARY DIRECT","trans.H1=-0.1923 [-0.4537,+0.0692], p=0.149","UNCERTAIN — directional, not confirmatory"
+"Transition H2: prior departure capacity amplifies entry","PRIMARY DIRECT","trans.H2=+0.0342 [-0.0975,+0.1660], p=0.610","NOT SUPPORTED"
+"Lagged-demand and intensive-margin legacy estimates are negative and larger","SECONDARY","lag-1 H1=-0.380 [p=0.012]; intensive H1=-0.548 [p=0.003]","SECONDARY — hypothesis-strengthening, not confirmatory"
+"Legacy is a hypothesis about constraint, not evidence of it","SYNTHESIS","pattern across 4 frozen tests","SUPPORTED as synthesis framing"
+"'Accumulated legacy alone is insufficient evidence of adaptation lock-in'","INTERPRETATION","conjunction of 2 nulls + 1 weak-context + 1 uncertain","SUPPORTED — stated as 'insufficient evidence', NOT 'cannot cause'"
+"Lock-in should be diagnosed against measurable barriers","POLICY IMPLICATION","interpretation of the above","SUPPORTED as recommendation"
+"Demand/capacity main effects predict where adaptation activity occurs","PRIMARY DIRECT","trans.demand=+1.10, p~2e-11; capacity baseline effects","SUPPORTED"

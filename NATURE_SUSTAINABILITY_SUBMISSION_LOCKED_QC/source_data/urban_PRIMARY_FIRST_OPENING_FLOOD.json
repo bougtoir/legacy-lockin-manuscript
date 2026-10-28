@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-10-04T00:39:19.753704Z",
+  "lock_sha256": "eccd89bfd1537b9181129e05d10d945b1fce354315a0eb358f225a6c55982e45",
+  "sample_sha256": "15233d49b21b8a80a1196a16525ae9fbb6621c68be36b8d7abec7208c902a9f7",
+  "N": 4598,
+  "countries": 143,
+  "blocks": 175,
+  "standardization": {
+    "ln_buv_2000": {
+      "mean": 17.070808783810904,
+      "sd": 1.6004062211096588
+    },
+    "flood_share_2000": {
+      "mean": 19.723673336233144,
+      "sd": 24.036497322540843
+    }
+  },
+  "beta0": 0.5656960766337723,
+  "beta1": -0.028931777961187913,
+  "beta2": -0.24571166438586553,
+  "beta3": -0.008275234531385851,
+  "r2": 0.8390958464393196,
+  "resid_sd": 0.11717472921655793,
+  "outcome": "net_hazard_avoidance_reallocation",
+  "model": "OLS + country FE",
+  "note": "FIRST AND ONLY opening; immutable"
+}

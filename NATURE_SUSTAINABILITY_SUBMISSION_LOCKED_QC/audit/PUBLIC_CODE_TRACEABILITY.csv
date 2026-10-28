@@ -1,0 +1,8 @@
+displayed_estimate,canonical_key,public_script,public_script_role,frozen_source
+"T1 national β3 = +0.0046 [-0.131,+0.143] p=0.851","nat.beta3*","repro/reproduce_primary.py + analysis/nat_primary_opening.py","refits fractional logit on nat_PRIMARY_ESTIMATION_SAMPLE_LOCKED.csv; bootstrap p","nat_PRIMARY_FIRST_OPENING.json / nat_primary_model_results.csv"
+"T2 subnat β3 = −0.0377 [-0.2513,+0.0773] p=0.384","subnat.beta3*","repro/reproduce_primary.py + analysis/subnat_primary_opening.py","OLS+country FE on subnat_PRIMARY_SUBNATIONAL_SAMPLE_LOCKED_V4.csv","subnat_PRIMARY_FIRST_OPENING_SUBNATIONAL.json"
+"T3 urban β3 = −0.0083 [-0.0166,-0.0033] p=0.002; ΔME","urban.beta3* / urban.delta_me*","repro/reproduce_primary.py + analysis/urban_primary_opening.py","OLS+country FE on urban_PRIMARY_FLOOD_SETTLEMENT_SAMPLE_LOCKED.csv","urban_PRIMARY_FIRST_OPENING_FLOOD.json"
+"T4 H1 = −0.1923 [-0.4537,+0.0692] p=0.149","trans.H1*","repro/reproduce_primary.py + analysis/trans_primary_opening.py","cloglog hazard on trans_PRIMARY_TRANSITION_RISKSET_V4.csv","trans_PRIMARY_FIRST_OPENING_TRANSITION.json / trans_primary_model_results.csv"
+"T4 H2 = +0.0342 [-0.0975,+0.1660] p=0.610","trans.H2*","same as H1","same risk set","same"
+"secondary lag-1 H1 = −0.380","trans.sec_lag1.*","trans_ROBUSTNESS_LEDGER.csv row","ledger of prespecified variants","trans_ROBUSTNESS_LEDGER.csv"
+"secondary intensive H1 = −0.548","trans.intensive.*","trans_intensive_margin_results.csv","PPML secondary margin","trans_intensive_margin_results.csv"
