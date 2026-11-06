@@ -1,0 +1,8 @@
+study,unit,N,legacy,demand,outcome,estimand,estimate,95% CI,p,classification
+national agriculture,country,147,crop portfolio HHI,crop-calendar mismatch,crop-mix JSD,legacy x mismatch (fractional logit),+0.005,"[-0.131, +0.143]",~1.0,NULL
+subnational agriculture,admin-1,340,irrigation share 2000,crop-calendar mismatch,crop-mix JSD,legacy x mismatch (OLS + country FE),-0.038,"[-0.251, +0.077]",0.384,NULL
+urban settlements,urban centre,"4,598",ln built volume 2000,baseline RP10 flood share,net hazard-avoidance reallocation,legacy x exposure (OLS + country FE),-0.0083,"[-0.0166, -0.0033]",0.002,WEAK / CONTEXT DEPENDENT
+transition H1 (legacy),county-year,"51,686",housing-stock age,3-yr lag flood declarations,first programme entry,demand x legacy (cloglog),-0.192,"[-0.454, +0.069]",0.149,DIRECTIONAL BUT UNCERTAIN
+transition H2 (capacity),county-year,"51,686",prior departure obligations,3-yr lag flood declarations,first programme entry,demand x capacity (cloglog),+0.034,"[-0.097, +0.166]",0.610,NULL
+transition H1 lag-1 (secondary),county-year,"51,686",housing-stock age,1-yr lag declarations,first programme entry,demand x legacy (cloglog),-0.380,"[-0.678, -0.082]",0.012,SECONDARY
+transition H1 intensive (secondary),county-year,"65,919",housing-stock age,1-yr lag declarations,entry volume,demand x legacy (PPML),-0.548,"[-0.910, -0.187]",0.003,SECONDARY

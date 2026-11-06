@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "branch": "nat.beta3",
+      "frozen": 0.004592525890898978,
+      "reproduced": 0.004592525890899259,
+      "tol": 1e-06,
+      "ok": true,
+      "note": "N=147"
+    },
+    {
+      "branch": "subnat.beta3",
+      "frozen": -0.03771290381138198,
+      "reproduced": -0.03771290381138185,
+      "tol": 1e-06,
+      "ok": true,
+      "note": "N=340"
+    },
+    {
+      "branch": "subnat.beta1",
+      "frozen": 0.01663978857808092,
+      "reproduced": 0.016639788578080635,
+      "tol": 1e-06,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "branch": "urban.beta3",
+      "frozen": -0.008275234531385851,
+      "reproduced": -0.008275234531397297,
+      "tol": 1e-06,
+      "ok": true,
+      "note": "N=4598"
+    },
+    {
+      "branch": "trans.H1",
+      "frozen": -0.1922768168138403,
+      "reproduced": -0.19227681681384287,
+      "tol": 1e-06,
+      "ok": true,
+      "note": "N=51686"
+    },
+    {
+      "branch": "trans.H2",
+      "frozen": 0.03424914849321343,
+      "reproduced": 0.03424914849321365,
+      "tol": 1e-06,
+      "ok": true,
+      "note": ""
+    },
+    {
+      "branch": "trans.demand",
+      "frozen": 1.0998459891318235,
+      "reproduced": 1.0998459891318266,
+      "tol": 0.001,
+      "ok": true,
+      "note": ""
+    }
+  ],
+  "verdict": "PASS"
+}

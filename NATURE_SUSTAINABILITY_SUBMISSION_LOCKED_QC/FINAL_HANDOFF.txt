@@ -1,0 +1,43 @@
+FINAL_HANDOFF — Nature Sustainability package (LOCKED_QC)
+Date: 2026-10-28
+
+CONTENTS
+- MAIN_MANUSCRIPT_NS_inline_LOCKED.docx   (inline figures + OMML equations + SI Table 1)
+- MAIN_MANUSCRIPT_NS_clean_LOCKED.docx    (no embedded figures; EM upload file)
+- COVER_LETTER_NS_LOCKED.docx
+- figures/  (Figure_1..5, 300 dpi)
+- extended_data/  (ED_Fig_1..8 + ED_Table_1,2)
+- supplementary/  (SI_Table_1.csv — moved from Extended Data to satisfy the
+  10-item Extended Data cap; text updated to "Supplementary Table 1")
+- source_data/  (frozen canonical inputs: *_PRIMARY_FIRST_OPENING*.json,
+  primary model results, robustness/heterogeneity/negative-control ledgers,
+  samples/ locked estimation samples + .sha256)
+- analysis/  (canonical_results.json/.csv + build_canonical_registry.py)
+- manuscript/  (main_text_template.md with {{key|fmt}} + rendered main_text.md)
+- scripts/  (render_manuscript.py, make_figures.py, build_docx.py,
+  build_cover_letter.py, reproduce_primary.py, reproduce_primary_public.py)
+- REPRODUCIBILITY_BUNDLE_NS_LOCKED.zip
+- audit/  (16 audit files + FINAL_QC_REPORT.md)
+- repro_results.json
+
+WHAT CHANGED vs FINAL package
+- All manuscript/figure/table numbers now generated from
+  analysis/canonical_results.json (no manual transcription).
+- national p-value corrected to 0.851 (was rendered ~1.0).
+- SLR subset N corrected to 542; intensive-margin N corrected to 64,302;
+  outcome-SD share corrected to 3.5%; subnat robustness variants = 8.
+- ED Fig. 1 now substantively cited in text.
+- 23 OMML Word-native equations added (inline β3/β/ΔME/√(ln 2) + 5 display
+  model equations).
+- ED Table 3 -> Supplementary Table 1 (10-item ED cap).
+- Public repo repaired: README.md + MIT LICENSE added.
+
+REPRODUCTION
+  python3 REPRODUCIBILITY_BUNDLE_NS/scripts/reproduce_primary_public.py
+  <bundle>   → 6/6 primary checks PASS, bit-exact.
+
+REMAINING PORTAL-SIDE TASKS (not package defects)
+- Complete the Nature Portfolio reporting summary inside Editorial Manager.
+- Upload figures as separate files; clean docx is the text file.
+
+DECISION: SUBMISSION READY — ALL FIXED QC GATES PASS

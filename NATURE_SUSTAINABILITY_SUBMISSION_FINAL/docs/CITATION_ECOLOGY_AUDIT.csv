@@ -1,0 +1,47 @@
+citation,year,journal,domain,construct,specific claim supported,methodological relevance,direct overlap,target-journal relevance,include_yes_no,reason
+"Unruh GC, Understanding carbon lock-in",2000,Energy Policy,mitigation/energy,carbon lock-in; techno-institutional complex,"lock-in = techno-institutional co-evolution, not capital alone",canonical anchor,high background,high,yes,foundational definition the paper tests
+"Seto KC et al., Carbon lock-in types causes and policy implications",2016,Annu Rev Environ Resour,mitigation,infrastructural/institutional/behavioral lock-in types,"lock-in has multiple coevolving types",review synthesis,high,high,yes,taxonomy of lock-in
+"David PA, Clio and the economics of QWERTY",1985,Am Econ Rev,economics,path dependence,"historical events can lock technologies",canonical,high,moderate,yes,path-dependence foundation
+"Arthur WB, Competing technologies increasing returns and lock-in",1989,Econ J,economics,increasing returns lock-in,"lock-in by small historical events",canonical,high,moderate,yes,mechanism reference
+"North DC, Institutions Institutional Change and Economic Performance",1990,Cambridge UP,economics,institutional constraint,"institutions shape adaptation paths",canonical,high,moderate,yes,institutional legacy anchor
+"Page SE, Path dependence",2006,Q J Polit Sci,political science,path dependence definition,"distinguishes path dependence from mere persistence",conceptual,high,moderate,yes,core to paper's distinction
+"Geels FW, Technological transitions as evolutionary reconfiguration",2002,Res Policy,transitions,multi-level perspective,"transitions involve niche-regime-landscape interaction",field anchor,moderate,high,yes,transitions framing
+"Markard J et al., Sustainability transitions emerging field",2012,Res Policy,transitions,field review,"transitions as research field",review,low,high,yes,journal-fit citation
+"Kohler J et al., Agenda for sustainability transitions research",2019,Environ Innov Soc Transit,transitions,research agenda,"transition barriers and agency",review,moderate,high,yes,transitions agenda
+"Barnett J & O'Neill S, Maladaptation",2010,Glob Environ Change,adaptation,maladaptation,"adaptation can increase vulnerability",editorial definition,moderate,high,yes,adaptation-side anchor
+"Magnan AK et al., Addressing the risk of maladaptation",2016,WIREs Clim Change,adaptation,maladaptation risk,"maladaptation pathways",review,moderate,high,yes,adaptation boundary
+"Juhola S et al., Redefining maladaptation",2016,Environ Sci Policy,adaptation,maladaptation definition,"maladaptation as process outcome",conceptual,moderate,high,yes,definitional care
+"Eriksen S et al., Adaptation interventions and vulnerability",2021,World Dev,adaptation,adaptation outcomes,"interventions can help hinder or be irrelevant",empirical review,moderate,high,yes,null-compatible evidence
+"Dow K et al., Limits to adaptation",2013,Nat Clim Change,adaptation,adaptation limits,"limits vs constraints distinction",editorial,high,high,yes,limits terminology
+"Schipper ELF, Maladaptation when adaptation goes very wrong",2020,One Earth,adaptation,maladaptation,"adaptation failure modes",commentary,moderate,high,yes,current framing
+"Moser SC & Ekstrom JA, Framework to diagnose barriers to adaptation",2010,PNAS,adaptation,barrier diagnosis,"barriers must be diagnosed not assumed",framework,high,high,yes,directly supports policy implication
+"Biesbroek GR et al., Nature of barriers to climate adaptation",2013,Reg Environ Change,adaptation,barriers,"barriers vs limits clarification",review,high,high,yes,barrier/constraint distinction
+"Kates RW et al., Transformational adaptation",2012,PNAS,adaptation,transformational adaptation,"when incremental adaptation is insufficient",canonical,moderate,high,yes,transition-margin anchor
+"Fedele G et al., Transformative adaptation for social-ecological systems",2019,Environ Sci Policy,adaptation,transformative adaptation,"transformation characteristics",review,moderate,high,yes,transformational margin
+"Gajjar SP et al., Development pathways constrain adaptation futures",2019,Clim Dev,adaptation,development pathways,"past development constrains adaptation options",review,high,high,yes,closest conceptual kin
+"Adger WN et al., Adaptation to climate change in the developing world",2003,Prog Dev Stud,adaptation,adaptation determinants,"adaptive capacity determinants",canonical,moderate,high,yes,adaptive capacity
+"Mendelsohn R et al., Impact of global warming on agriculture",1994,Am Econ Rev,agriculture,Ricardian adaptation,"climate shapes agricultural allocation",canonical,moderate,moderate,yes,ag adaptation anchor
+"Deschenes O & Greenstone M, Economic impacts of climate change",2007,Am Econ Rev,agriculture,weather-output identification,"random weather identification for ag impacts",method,moderate,moderate,yes,ag method anchor
+"Hornbeck R, Enduring impact of the American Dust Bowl",2012,Am Econ Rev,economics,persistence vs adjustment,"land adjustments after catastrophe",empirical,high,moderate,yes,persistence evidence
+"Hornbeck R & Keniston D, Creative destruction Boston Fire",2017,Am Econ Rev,economics,urban rebuilding,"rebuilt capital gains after destruction",empirical,high,moderate,yes,built-capital dynamics
+"Vigdor J, Economic aftermath of Hurricane Katrina",2008,J Econ Perspect,economics,post-disaster recovery,"uneven post-disaster recovery",empirical,moderate,moderate,yes,settlement response evidence
+"Hino M Field CB & Mach KJ, Managed retreat as response to hazard risk",2017,Nat Clim Change,managed retreat,retreat drivers/barriers,"27 cases; benefit/initiation typology",empirical,high,high,yes,transition branch anchor
+"Boustan LP et al., Moving to higher ground",2012,Am Econ Rev,economics,disaster migration,"historical migration responses to disasters",empirical,moderate,moderate,yes,departure response
+"Marino E, Adaptation privilege and voluntary buyouts",2018,Glob Environ Change,managed retreat,buyout equity,"retreat policy selectivity",conceptual,moderate,high,yes,retreat context
+"Franco A et al., Publication bias in the social sciences",2014,Science,methods,publication bias,"null results underreported",empirical,high,high,yes,justifies null-reporting design
+"Fanelli D, Do pressures to publish increase bias",2010,PLoS ONE,methods,positive-outcome bias,"pressure inflates positive reporting",empirical,moderate,moderate,yes,null-integrity support
+"Schlenker W & Roberts MJ, Nonlinear temperature effects US yields",2009,PNAS,agriculture,climate-crop response,"nonlinear climate damages",empirical,low,high,yes,climatic mismatch context
+"Lobell DB et al., Climate trends and global crop production",2011,Science,agriculture,climate impacts,"global production sensitivity",empirical,low,high,yes,ag context
+"Burke M & Emerick K, Adaptation to climate change US agriculture",2016,Am Econ J Policy,agriculture,adaptation measurement,"little adaptation in US ag yields",empirical,high,high,yes,ag null precedent
+"Costinot A Donaldson D & Smith C, Evolving comparative advantage",2016,J Polit Econ,agriculture,crop-switching gains,"field-level crop substitution gains",empirical,high,moderate,yes,substitutability evidence
+"Rising J & Devineni N, Crop switching reduces losses",2020,Nat Commun,agriculture,crop switching,"crop switching offsets half of losses",empirical,high,high,yes,transformation evidence
+"Melchiorri M et al., Unveiling 25 years of planetary urbanization",2018,Remote Sens,urban data,GHSL time series,"multi-epoch settlement data source",data citation,moderate,moderate,yes,urban dataset
+"Florczyk AJ et al., GHSL Data Package 2019",2019,EU Publ Office,urban data,GHSL data package,"UCDB variable definitions",data citation,moderate,moderate,yes,urban dataset
+"Siders AR, Social justice implications of US buyout programs",2019,Clim Change,managed retreat,buyout programs,"equity dimensions of US buyouts",empirical,moderate,high,yes,FEMA programme context
+"Mach KJ et al., Managed retreat through voluntary buyouts",2019,Sci Adv,managed retreat,buyout outcomes,"buyout siting and outcomes",empirical,moderate,high,yes,FEMA programme context
+"Davis DR & Weinstein DE, Bones bombs and break points",2002,Am Econ Rev,economics,spatial persistence,"city structures survive shocks",empirical,high,moderate,yes,persistence-not-lockin evidence
+"Miguel E & Roland G, Long-run impact of bombing Vietnam",2011,J Dev Econ,economics,persistence,"no long-run distortion from bombing",empirical,high,moderate,yes,persistence-not-lockin evidence
+"Caldecott B et al., Stranded assets in agriculture",2013,Oxford Smith School report,agriculture,stranded assets,"asset stranding risk definitions",report,moderate,moderate,yes,stranded-asset concept
+"Grafton RQ et al. (various adaptation reviews)",2019,various,adaptation,adaptation progress,"global adaptation tracking",review,low,moderate,no,not needed beyond selected set
+"Mortreux C & Barnett J (migration as adaptation)",2017,Glob Environ Change,migration,mobility as adaptation,"migration can be adaptive",empirical,moderate,moderate,no,adequately covered by Boustan/Hino
+"Nelson DR et al., Adaptation pathways",2014,various,adaptation,pathways,"pathways framing",conceptual,low,moderate,no,avoid citation padding
